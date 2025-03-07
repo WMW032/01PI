@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Insumos - Controle de Insumos</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="insumos.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Controle de Insumos</h1>
+        <nav>
+            <ul>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="insumos.html" class="active">Insumos</a></li>
+                <li><a href="reports.html">Relatórios</a></li>
+                <li><a href="users.html">Usuários</a></li>
+                <li><a href="settings.html">Configurações</a></li>
+                <li><a href="about.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Lista de Insumos</h2>
+        <button onclick="location.href='insumos_form.html'">Adicionar Novo Insumo</button>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Categoria</th>
+                    <th>Quantidade</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody id="insumos-table">
+                <!-- Os dados serão inseridos aqui -->
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <p>© 2025 Agência de Assistência Social Municipal</p>
+    </footer>
+</body>
+</html>
